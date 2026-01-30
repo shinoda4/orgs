@@ -1,10 +1,42 @@
 
-
-
 #+title: Git commands
 #+author: Mike Shinoda
 
 * Operations
+
+** Initialize a git repository
+
+*** create a new repository on the command line
+
+#+begin_src shell
+  echo "# test" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin git@github.com:shinoda4/test.git
+  git push -u origin main
+#+end_src
+
+*** push an existing repository from the command line
+
+#+begin_src shell
+  git remote add origin git@github.com:shinoda4/test.git
+  git branch -M main
+  git push -u origin main
+#+end_src
+
+** add a new file to repo
+
+#+begin_src shell
+  touch README.md
+  git status
+
+  git add README.md
+  git commit -a "README.md"
+
+  git push origin main
+#+end_src
 
 ** Change commit message of specific commit
 
