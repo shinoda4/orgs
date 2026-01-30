@@ -2,6 +2,19 @@
 #+title: Git commands
 #+author: Mike Shinoda
 
+
+* Installation
+
+
+
+
+* Configuration
+
+#+begin_src shell
+  git config --global user.name "shinoda4"
+  git config --global user.email "lindesong666@gmail.com"
+#+end_src
+
 * Operations
 
 ** Initialize a git repository
@@ -35,7 +48,7 @@
   git add README.md
   git commit -a "README.md"
 
-  git push origin main
+  git push origin main [-f -u]
 #+end_src
 
 ** Change commit message of specific commit
@@ -45,7 +58,9 @@
   git rebase -i 4596fa93163cbb93d8f429aad68b4264acb67c00^
 #+end_src
 
-change the ~pick~ to ~reword~ .
+do not forget to add ~^~ which means parent node.
+
+change the ~pick~ to ~reword~.
 
 #+begin_src shell
   git push origin main -f
