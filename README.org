@@ -1,0 +1,7 @@
+
+#+title: README
+#+author: Mike Shinoda
+
+* My Org mode documents
+
+Using Emacs to edit and manage all documents.
