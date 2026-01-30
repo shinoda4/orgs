@@ -1,0 +1,18 @@
+
+
+#+title: Hello org
+#+author: Mike Shinoda
+#+date: <2026-01-27 Tue>
+
+* What is GNU Emacs
+
+GNU Emacs is an editor that can edit your code or your document.
+
+Unlike Vim's hjkl, emacs uses shortcuts for navigation.
+
+#+begin_src rust
+  fn main(){
+      println!("Hello World from Rust!");
+  }
+#+end_src
+

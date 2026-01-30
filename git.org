@@ -1,0 +1,21 @@
+
+
+
+#+title: Git commands
+#+author: Mike Shinoda
+
+* Operations
+
+** Change commit message of specific commit
+
+#+begin_src shell
+  git log # find the hash of this commit
+  git rebase -i 4596fa93163cbb93d8f429aad68b4264acb67c00^
+#+end_src
+
+change the ~pick~ to ~reword~ .
+
+#+begin_src shell
+  git push origin main -f
+#+end_src
+
