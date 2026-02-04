@@ -5,3 +5,13 @@
 * My Org mode documents
 
 Using Emacs to edit and manage all documents.
+
+* TODO List to do [0/4]
+
+- [ ] Git
+
+- [ ] Emacs
+
+- [ ] Rust
+
+- [ ] Python

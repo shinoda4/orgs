@@ -1,0 +1,19 @@
+
+#+title: Semantics of English
+#+author: Shinoda4
+#+date: 2026-02-01
+
+* Hypernym 上义词
+
+指意义更宽泛、涵盖范围更大的词（Hyper- 前缀表示“在……之上”）
+
+* Hyponym 下义词
+
+指意义更具体、被包含在某个大类下的词（Hypo- 前缀表示“在……之下”）
+
+| 层级        | 术语           | 示例 (以交通工具为例) | 你的作文中可以用的        |
+|-------------+----------------+-----------------------+---------------------------|
+| 顶层 (最虚) | Super-Hypernym | Object (物体)         | Thing / Item              |
+| 中层 (核心) | Hypernym       | Vehicle (交通工具)    | Appliance / Commodity     |
+| 底层 (最实) | Hyponym        | Car / Bus / Train     | Smartphone / Refrigerator |
+

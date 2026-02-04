@@ -1,0 +1,12 @@
+
+
+#+title: Documents
+#+author: Shinoda4
+#+date: 2026-02-03
+
+[[http://dss.collections.imj.org.il/][The Digital Dead Sea Scrolls]]
+
+[[dict.org][Dict.org]]
+
+[[wttr.in][wttr.in]]
+

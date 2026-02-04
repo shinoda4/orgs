@@ -5,8 +5,15 @@
 
 * Installation
 
+[[https://git-scm.com/install/][Git Official]]
 
++ for macos
 
+  ~brew install git~
+
++ for linux
+
+  ~apt install -y build-essential git~
 
 * Configuration
 
@@ -16,9 +23,7 @@
 #+end_src
 
 * Operations
-
 ** Initialize a git repository
-
 *** create a new repository on the command line
 
 #+begin_src shell
@@ -66,3 +71,30 @@ change the ~pick~ to ~reword~.
   git push origin main -f
 #+end_src
 
+
+** check status
+
+#+begin_src shell
+  git status
+#+end_src
+
+
+** check diff
+
+#+begin_src shell
+  git diff [file_name]
+#+end_src
+
+
+** git reset
+
+#+begin_src shell
+  git reset --hard HEAD
+#+end_src
+
+
+** git clean fd
+
+#+begin_src shell
+  git clean -fd
+#+end_src

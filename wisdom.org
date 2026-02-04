@@ -1,0 +1,11 @@
+
+
+* Difference of thinking logic between Chinese and English :Mindest:
+
+- **中文核心**：意境 (Atmosphere/Context) -> 追求神似、留白、整體感。
+- **英文核心**：細節 (Details/Precision) -> 追求邏輯鏈條、定義清晰、局部拆解。
+
+#+BEGIN_QUOTE
+「中文是畫像，英文是解剖。」
+#+END_QUOTE
+
